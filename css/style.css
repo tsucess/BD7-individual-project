@@ -1,0 +1,162 @@
+body {
+    font-size : 18px;
+    text-align: center;
+    background: #afaeae;
+    margin    : auto;
+
+}
+
+h1,
+h2 {
+    line-height: 1;
+}
+
+.wrapper {
+    background   : white;
+    border-radius: 50px;
+    margin       : auto;
+    padding      : 30px;
+    width        : 60%;
+}
+
+.profile-pic {
+    width         : 46%;
+    height        : 350px;
+    border-radius : 50%;
+    margin        : 30px 0;
+    -webkit-filter: grayscale(100%);
+    filter        : grayscale(100%);
+}
+
+.caption {
+    background    : #202020;
+    border-radius : 10px;
+    color         : white;
+    font-size     : 19px;
+    letter-spacing: 1px;
+    margin        : auto;
+    padding       : 1px;
+    width         : 80%;
+}
+
+.footb {
+    background: #202020;
+    padding   : 5px 30px;
+    width     : 90%;
+}
+
+.time-line {
+    margin-top: 40px;
+    text-align: left;
+
+
+}
+
+.time-line h4 {
+    margin-left: 20px;
+}
+
+footer {
+    font-size: 15px;
+    margin   : 20px 0;
+}
+
+/* RESPONSIVESNESS */
+
+@media only screen and (max-width: 986px) {
+    .profile-pic {
+        height: 280px;
+
+
+    }
+
+
+}
+
+
+@media only screen and (max-width: 786px) {
+    .profile-pic {
+        width : 52%;
+        height: 240px;
+
+
+    }
+
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .wrapper {
+        background   : #ffffff;
+        border-radius: 20px;
+        width        : 80%;
+
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    .profile-pic {
+        width : 60%;
+        height: 250px;
+
+
+    }
+
+    .caption {
+
+        padding: 1px 20px;
+        width  : 90%;
+    }
+
+    .caption p {
+        text-align: center;
+        font-size : 15px;
+
+    }
+
+    .caption .foot {
+        text-align: justify;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+
+    h1 {
+        font-size: 25px;
+        padding  : 0 15px;
+
+    }
+
+    h2 {
+        font-size: 20px;
+        padding  : 0 15px;
+    }
+
+    .profile-pic {
+        width : 60%;
+        height: 200px;
+    }
+
+    .wrapper {
+        width: 75%;
+    }
+
+    footer {
+        font-size: 12px;
+
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .profile-pic {
+        width : 60%;
+        height: 170px;
+    }
+
+    .caption .foot {
+        text-align: center;
+    }
+}
